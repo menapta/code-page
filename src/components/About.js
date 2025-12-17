@@ -45,7 +45,7 @@ function About() {
           <div className="skills-grid">
             <div className="skill-item">
               <strong>Python</strong>
-              <span>Avançado</span>
+              <span>Intermediário</span>
             </div>
             <div className="skill-item">
               <strong>Machine Learning</strong>
@@ -53,7 +53,7 @@ function About() {
             </div>
             <div className="skill-item">
               <strong>Engenharia de Dados</strong>
-              <span>Avançado</span>
+              <span>Intermediário</span>
             </div>
             <div className="skill-item">
               <strong>React.js</strong>
@@ -71,21 +71,23 @@ function About() {
       <div className="profile-experience">
         <h2>Experiência</h2>
         <div className="experience-item">
-          <h3>Pleno | Desenvolvedor de Software [Ubots]</h3>
+          <h3>Desenvolvedor Pleno | Fullstack [Ubots]</h3>
           <p className="experience-period">set/2023 - out/2025</p>
           <ul>
-            <li> Criação de consultas SQL e modificações no banco de dados para geração de relatórios </li>
-            <li> Implementação de funções e triggers PL/SQL no postgresql </li>
-            <li> Modificações em APIs Java e groovy; </li>
-            <li> Soluções para clientes utilizando LLMs em python, N8N agents e Langflow </li>
-            <li> Migrações para BigQuery </li>
-            <li> Criação de fluxos de integrações no N8N </li>
-            <li> Desenvolvimento de novas ferramentas e componentes para chatbots</li>
+            <li>Criação de consultas SQL e modificações no banco de dados para geração de relatórios </li>
+            <li>Implementação de funções e triggers PL/SQL no postgreSQL </li>
+            <li>Integração de soluções com Redis</li>
+            <li>Modificações em APIs Java e groovy; </li>
+            <li>Soluções para clientes utilizando LLMs em python, N8N agents e Langflow </li>
+            <li>Migrações para BigQuery </li>
+            <li>Desenvolvimento de componentes em React.js </li>
+            <li>Criação de fluxos de integrações no N8N </li>
+            <li>Desenvolvimento de novas ferramentas e componentes para chatbots</li>
           </ul>
         </div>
 
         <div className="experience-item">
-          <h3>Junior | ETL [Compass.uol] </h3>
+          <h3>Desenvolvedor Júnior | ETL [Compass.uol] </h3>
           <p className="experience-period">out/2018 - nov/2022</p>
           <ul>
             <li>Projeto ETL em EDQ e Talend</li>

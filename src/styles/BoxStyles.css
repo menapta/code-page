@@ -1,6 +1,6 @@
 
 .nav-box {
-  font-size: 25px;
+  font-size: 20px;
   background-color: #166366;
   display: flex;
 }
@@ -11,7 +11,8 @@
 }
 
 .nav-box ul li {
-  padding: 10px 20px;
+  margin: 0;
+  padding: 0px 20px;
 }
 
 .nav-box ul li a {
