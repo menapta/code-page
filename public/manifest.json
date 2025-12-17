@@ -1,0 +1,25 @@
+{
+  "short_name": "Apresentation",
+  "name": "Matheus Frantz de Faria",
+  "icons": [
+    {
+      "src": "logoico.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "cilogo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "cilogo192.png",
+      "type": "image/png",
+      "sizes":  "192x192"
+    }
+  ],
+  "start_url": "./about",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,16 @@
+.footer-box {
+  /* border: 2px solid #FF0000; */
+  background-color: #166366;
+  justify-content: center; 
+  align-items: center; 
+  color: #FFFFFF;
+  height: 50px; 
+  text-align: center;
+}
+
+.footer-box p {
+  margin: 0;
+  padding: 10px 0 0 0;
+  font-size: 20px;
+  color: #FFFFFF;
+}

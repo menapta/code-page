@@ -1,0 +1,175 @@
+/* ProfilePage.css */
+.about-box {
+  padding: 0;
+}
+
+.profile-goal {
+  /* align-items: center; */
+  justify-content: center; 
+  display: flex;
+}
+
+.profile-container {
+  /* min-width: 800px; */
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e1e5e9;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007BFF;
+}
+
+.profile-info h1 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.profile-title {
+  font-size: 1.3rem;
+  color: #007BFF;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.profile-location {
+  color: #666;
+  margin: 0 0 1rem 0;
+}
+
+/* .linkedin-link {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+} */
+
+.linkedin-link:hover {
+  background: #0056b3;
+}
+
+.profile-formation , .profile-skills{
+  /* border: 2px solid #FF00F0; */
+  width: 60rem;
+  padding:0 50px;
+}
+
+.profile-about, .profile-skills, .profile-experience {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #166366;
+  padding-bottom: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.skill-item {
+  /* background: linear-gradient(0deg, #f8f9fa 0%, #96c6f7 100%); */
+  background: #ffffff;
+  color: #166366;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #166366;
+  margin-bottom: 0.25rem;
+}
+
+.experience-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.experience-item h3 {
+  color: #1a1a1a;
+  margin: 0 0 0.5rem 0;
+}
+
+.experience-period {
+  color: #666;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+
+.experience-item ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+
+}
+
+.profile-footer {
+  /* display: block; */
+  width: 50rem;
+  text-align: center;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+.profile-footer a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-container {
+    padding: 1rem;
+  }
+}
